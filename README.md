@@ -1,6 +1,6 @@
 ### Introduction
 
-This second programming assignment will require you to write an R
+This second programming assignment will requires us to write an R
 function that is able to cache potentially time-consuming computations.
 For example, taking the mean of a numeric vector is typically a fast
 operation. However, for a very long vector, it may take too long to
@@ -70,8 +70,7 @@ repeatedly (there are also alternatives to matrix inversion that we will
 not discuss here). Your assignment is to write a pair of functions that
 cache the inverse of a matrix.
 
-Write the following functions:
-
+The following functions are to be written:
 1.  `makeCacheMatrix`: This function creates a special "matrix" object
     that can cache its inverse.
 2.  `cacheSolve`: This function computes the inverse of the special
@@ -86,7 +85,7 @@ function in R. For example, if `X` is a square invertible matrix, then
 For this assignment, assume that the matrix supplied is always
 invertible.
 
-In order to complete this assignment, you must do the following:
+In order to complete this assignment, the following needs to be done:
 
 1.  Fork the GitHub repository containing the stub R files at
     [https://github.com/rdpeng/ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2)
@@ -100,6 +99,3 @@ In order to complete this assignment, you must do the following:
 5.  Submit to Coursera the URL to your GitHub repository that contains
     the completed R code for the assignment.
 
-### Grading
-
-This assignment will be graded via peer assessment.
